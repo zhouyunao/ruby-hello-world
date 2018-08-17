@@ -428,3 +428,43 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 389ms (Views: 195.2ms)
 
 
+Started GET "/" for 10.0.2.2 at 2018-08-16 08:26:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 860ms (Views: 419.9ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2018-08-16 08:26:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 21.9ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2018-08-16 08:26:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 26ms (Views: 24.0ms)
+
+
+Started GET "/static_pages/help" for 10.0.2.2 at 2018-08-16 08:26:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 18.5ms)
+
+
+Started GET "/static_pages/home" for 10.0.2.2 at 2018-08-16 08:29:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 546ms (Views: 287.3ms)
+
+
